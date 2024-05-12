@@ -15,5 +15,4 @@ public class Test1 {
     chromeDriver.get("http://www.baidu.com");
 
   }
-
 }

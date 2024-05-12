@@ -8,12 +8,12 @@ public class Test3 {
   public static ChromeDriver chromeDriver;
   public static void main(String[] args) throws InterruptedException {
     openChrome();
-//    //删除搜索框的内容
-//    chromeDriver.findElement(By.id("kw")).sendKeys("腾讯课堂");
-//    //等待三秒
-//    Thread.sleep(3000);
-//    //删除搜索内容--用clear方法
-//    chromeDriver.findElement(By.id("kw")).clear();
+    //删除搜索框的内容
+    chromeDriver.findElement(By.id("kw")).sendKeys("腾讯课堂");
+    //等待三秒
+    Thread.sleep(3000);
+    //删除搜索内容--用clear方法
+    chromeDriver.findElement(By.id("kw")).clear();
     //获取元素的标签名，查看后返回值类型是WebElement，用webElement去接收
     WebElement webElement=chromeDriver.findElement(By.id("kw"));
     //获取元素的标签名

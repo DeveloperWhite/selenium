@@ -30,7 +30,7 @@ public class Test6 {
 //    //alert.dismiss();
 //    //显示弹出框文本
 //    //System.out.println(alert.getText());
-
+//
 //    //访问本地的html文件，confirm模态框
 //    chromeDriver.get("C:\\Users\\20961\\Desktop\\web自动化测试\\模态框\\confirm.html");
 //    //休眠2秒
@@ -47,7 +47,7 @@ public class Test6 {
 //    //alert.dismiss();
 //    //显示弹出框文本
 //    System.out.println(alert.getText());
-
+//
 //    //iframe处理
 //    chromeDriver.get("C:\\Users\\20961\\Desktop\\web自动化测试\\iframe框架\\a.html");
 //    //在默认输入页面找输入框输入数据
@@ -67,7 +67,7 @@ public class Test6 {
 //    chromeDriver.switchTo().defaultContent();
 //    //回到默认页面后，输入文字
 //    chromeDriver.findElement(By.id("aa")).sendKeys("回到了默认页面");
-
+//
 //    //window处理
 //    chromeDriver.get("C:\\Users\\20961\\Desktop\\web自动化测试\\windows切换\\a.html");
 //    Thread.sleep(2000);
@@ -93,7 +93,7 @@ public class Test6 {
 //    }
 //    Thread.sleep(3000);
 //    chromeDriver.findElement(By.id("bb")).sendKeys("第二个窗口");
-
+//
 //    //select下拉框自动设置
 //    chromeDriver.get("C:\\Users\\20961\\Desktop\\ceshi\\html\\html基础语法.html");
 //    //定位到时间下拉框
@@ -105,7 +105,7 @@ public class Test6 {
 //    Thread.sleep(3000);
 //    //根据文字选择下拉框中的选项
 //    select.selectByVisibleText("南京");
-
+//
 //    //时间日期控件自动定位和操作
 //    chromeDriver.get("https://www.fliggy.com/");
 //    //不限制输入，直接在输入框输入时间
@@ -113,7 +113,7 @@ public class Test6 {
 //    //限制输入，只能选择时间
 //    //
 //    //
-
+//
 //      //鼠标操作
 //     chromeDriver.get("https://www.treejs.cn/v3/demo/cn/exedit/drag.html");
 //     //原来的元素定位
@@ -125,7 +125,7 @@ public class Test6 {
 //     Thread.sleep(3000);
 //     //clickandhold点击然后按住原元素，move移动到目标元素的位置上，.release().build().perform()最后三个是固定的
 //     actions.clickAndHold(sourceElement).moveToElement(targetElement).release().build().perform();
-
+//
 //     //文件上传
 //    //input写入文件路径上传,用sendkeys上传
 //    chromeDriver.get("C:\\Users\\20961\\Desktop\\web自动化测试\\文件上传\\文件上传.html");
@@ -137,6 +137,7 @@ public class Test6 {
 
     //验证码
     //万能验证码
+
 
 
 
